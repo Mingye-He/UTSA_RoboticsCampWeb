@@ -24,12 +24,12 @@ body {
 }
 
 .mainlogo {
-  float: center;
-  width: 500px;
+  float: left;
+  width: 200px;
 }
 
 .Logo1{
-  width: 500px;
+  width: 200px;
   float: left;
 }
 
@@ -125,6 +125,6 @@ body {
 
 /* Schedule Page Styling*/
 .boxed {
-  background-color: teal; 
+  background-color: #ff7f35; 
   text-align: center; 
 }
