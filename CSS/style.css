@@ -13,6 +13,10 @@ body {
   margin: 0px;
 }
 
+.pictures {
+  float: center;
+}
+
 /* Styles for the Heading*/
 .heading {
   font-size: 30px;
@@ -33,9 +37,6 @@ body {
   float: left;
 }
 
-
-
-
 /* Navigation Bar*/
 .navbar {
   padding: 10px;
@@ -44,7 +45,7 @@ body {
 
 .navbar a{
   color: black;
-  padding: 14px 16px;
+  padding: 13px 16px;
   text-decoration: none;
 }
 
@@ -99,8 +100,9 @@ body {
 /* Projects  and Notes Page Styling*/
 .side {
   padding: 20px;
-  background-color: gray;
+  background-color: #b5b7b8 ;
   width: 25%;
+  height:300%;
 }
 
 .column.middle{
@@ -124,6 +126,29 @@ body {
 }
 
 /* Schedule Page*/
+.list{
+
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  width: 600px;
+  background-color:  #b5b7b8;
+}
+
+.list a {
+  display: block;
+  color: black;
+  padding:15px 0px;
+  text-decoration: none;
+}
+
+.list a:hover {
+  padding: 20px;
+  color: black;
+  background-color: #ddd;
+
+}
+
 .boxed {
   background-color: #ff7f35; 
   text-align: center; 
@@ -136,4 +161,14 @@ body {
 
 .subtitle{
   text-align: center;
+}
+
+/* Participtant Page */
+.camper{
+  background-color: #b5b7b8;
+  float: left;
+  margin-left: 5%;
+  margin-right: 0%;
+  width: 30%;
+  padding: 15px;
 }
