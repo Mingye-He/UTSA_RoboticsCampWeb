@@ -123,8 +123,17 @@ body {
   width: 200px;
 }
 
-/* Schedule Page Styling*/
+/* Schedule Page*/
 .boxed {
   background-color: #ff7f35; 
   text-align: center; 
+}
+
+.box{
+  background-color: #b5b7b8;
+  padding: 10px;
+}
+
+.subtitle{
+  text-align: center;
 }
