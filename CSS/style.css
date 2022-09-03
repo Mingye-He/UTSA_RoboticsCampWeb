@@ -131,7 +131,7 @@ body {
   list-style-type: none;
   margin:0;
   padding: 0;
-  width: 600px;
+  width: 300px;
   background-color:  #b5b7b8;
 }
 
@@ -150,7 +150,7 @@ body {
 }
 
 .box{
-  background-color: #b5b7b8;
+  border:#b5b7b8 5px;
   padding: 10px;
 }
 
