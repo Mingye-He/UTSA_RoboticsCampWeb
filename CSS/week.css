@@ -63,14 +63,21 @@
   .box{
     border-style: solid;
     border-color:#b5b7b8 10px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    float: center;
   }
 
   .subtitle{
     text-align: center;
   }
-  
+
+
+.pic{
+  width: 20.333%;
+  margin-left: 6%;
+}
+
   /* footer Styling*/
   
   .column.footer {
@@ -80,7 +87,7 @@
     background-color: #0c2340;
   }
   
-  .Logo2{
+.Logo2{
     float: left;
     margin: 20px;
     width: 200px;
