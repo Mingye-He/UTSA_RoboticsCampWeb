@@ -1,0 +1,28 @@
+.navbar {
+    padding: 10px;
+    background-color: #b5b7b8;
+  } 
+
+  .heading {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #0c2340;
+    padding: 100px;
+    height: 350px;
+  }
+
+  .mainlogo {
+    float: left;
+    width: 200px;
+  }
+
+  .list{
+
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    width: 300px;
+    background-color:  #b5b7b8;
+  } 
+  
