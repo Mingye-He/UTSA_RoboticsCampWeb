@@ -102,7 +102,7 @@ body {
   padding: 20px;
   background-color: #b5b7b8 ;
   width: 25%;
-  height:300%;
+  height:80%;
 }
 
 .column.middle{
@@ -127,40 +127,53 @@ body {
 
 /* Schedule Page*/
 .list{
-
   list-style-type: none;
-  margin:0;
+  text-align: center;
+  margin: 10px;;
   padding: 0;
-  width: 300px;
+  width: 50%;
+  height: 150px;
   background-color:  #b5b7b8;
 }
 
 .list a {
   display: block;
   color: black;
-  padding:15px 0px;
+  padding: 20px 0px;
   text-decoration: none;
 }
 
 .list a:hover {
-  padding: 20px;
+  padding: 10px;
   color: black;
   background-color: #ddd;
-
 }
 
-.box{
-  border:#b5b7b8 5px;
-  padding: 10px;
-}
+/*Week*/
 
-.subtitle{
-  text-align: center;
+/*Boxes styles*/
+
+  .box{
+    border-style: solid;
+    border-color:#b5b7b8 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    float: center;
+  }
+
+  .subtitle{
+    text-align: center;
+  }
+
+.pic{
+  width: 20.333%;
+  margin-left: 6%;
 }
 
 /* Participtant Page */
 .camper{
-  background-color: #b5b7b8;
+  border-style: solid;
+  border-color: black;
   float: left;
   margin-left: 5%;
   margin-right: 0%;
