@@ -96,6 +96,19 @@ body {
   height: 35%;
 }
 
+.section{
+  padding: 10px;
+  margin: 0%;
+  width: 100%;
+  background-color: white;
+}
+
+.mainpic{
+  margin-left: 10%;
+  width: 200px;
+  border-style: solid 5px;
+}
+
 
 /* Projects  and Notes Page Styling*/
 .side {
@@ -175,8 +188,21 @@ body {
   border-style: solid;
   border-color: black;
   float: left;
-  margin-left: 5%;
+  margin-left: 15%;
   margin-right: 0%;
   width: 30%;
-  padding: 15px;
+  padding: 10px;
+}
+
+.campbox{
+  background-color:#b5b7b8;
+  text-align-last: center;
+  padding: 10px;
+  height: 500px;
+}
+
+#portrait{
+  width: 500px;
+  margin-left: 30%;
+  margin-right: auto;
 }
