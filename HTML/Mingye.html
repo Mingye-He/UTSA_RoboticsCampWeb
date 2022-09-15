@@ -1,0 +1,128 @@
+<DOCTYPE! html>
+   <html lang="en">
+
+   <head>
+      <link rel="stylesheet" href= "/CSS/sunny-style.css">
+      <link rel="icon" href = "">
+
+      <meta charset= "utf-8">
+      <meta name="viewport" content="width=device-width initial-scale=1">
+      <title> Sunny's Profile</title>
+
+   </head>
+
+<body>
+    <div class = "heading">
+        <h1>
+            Profile
+        </h1>
+    </div>
+    <div class = "menu">
+        <div class = "toggle"> 
+            <ion-icon name = "add-outline"></ion-icon>
+
+        </div>
+
+        <li style = "--i:0;">
+            <a href="#"><ion-icon name="home-outline"></ion-icon></a>
+        </li>
+
+        <li style = "--i:1;">
+            <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+        </li>
+
+        <li style = "--i:2;">
+            <a href="#"><ion-icon name="settings-outline"></ion-icon></a>
+        </li>
+
+        <li style = "--i:3;">
+            <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
+        </li>
+
+        <li style = "--i:4;">
+            <a href="#"><ion-icon name="key-outline"></ion-icon></a>
+        </li>
+
+        <li style = "--i:5;">
+            <a href="#"><ion-icon name="videocam-outline"></ion-icon></a>
+        </li>
+
+        <li style = "--i:6;">
+            <a href="#"><ion-icon name="game-controller-outline"></ion-icon></a>
+        </li>
+
+        <!-- <li style = "--i:7;">
+            <a href="#"><ion-icon name="call-outline"></ion-icon></a>
+        </li> -->
+       
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+        toggle.onclick = function(){
+            menu.classList.toggle('active')
+        }
+    </script>
+
+    <div class = "rightcolumn">
+
+        <div class="container">
+
+            <!-- <span class="border tl">border-top-left</span>
+            <span class="border tr">border-top-right</span>
+            <span class="border bl">border-bottom-left</span>
+            <span class="border br">border-bottom-right</span> -->
+          
+            <h1>About Me</h1>
+            <br>
+          
+            <p>Hello! I'm Mingye He. I normally go my Sunny. I am currently a Senior at Ronald Reagan High School. 
+                This is a profile of all my notes and projects I have done. Feel free to look around. Thank You for visiting!
+            </p>
+        </div>
+
+        <div class="container">
+<!-- 
+            <span class="border tl">border-top-left</span>
+            <span class="border tr">border-top-right</span>
+            <span class="border bl">border-bottom-left</span>
+            <span class="border br">border-bottom-right</span> -->
+          
+            <h1>My Notes</h1>
+          <br>
+            <p>Here are the notes that I took during the camp. This allow include notes on the different codes I learned.
+                <li>
+                    <a href = "">Python Notes</a>
+                    <a href = "">HTML Notes</a>
+                    <a href = "">CSS Notes</a>
+                    <a href="">Website Notes</a>
+                </li>
+            </p>
+            
+        </div>
+
+        <div class="container">
+
+            <!-- <span class="border tl">border-top-left</span>
+            <span class="border tr">border-top-right</span>
+            <span class="border bl">border-bottom-left</span>
+            <span class="border br">border-bottom-right</span> -->
+          
+            <h1>Projects</h1>
+          <br>
+            <p>These are the projects I've done, and are currently working on. 
+                <li>
+                    <a href = "https://github.com/Mingye-He/UTSA_RoboticsCampWeb"> Website (the currently website you are looking at)</a>
+                    <a href = ""> 3D Printing </a>
+                </li>
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
