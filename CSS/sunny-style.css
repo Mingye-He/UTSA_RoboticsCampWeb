@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-
+    font-size: 22px;
 }
 
 body{
@@ -11,21 +11,30 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(45deg,#fff, #004764);
+    background: rgb(80,82,164);
+    background: linear-gradient(360deg, rgba(80,82,164,1) 0%, rgba(156,105,155,1) 50%, rgba(233,160,114,1) 100%);
 }
 
 .heading{
-    text-align: center;
+    top: 0%;
+    left:50%;
+    position: center;
+    transform: rotate(180deg);
+    height: 260px;
+    width: 500px;
+    border-radius: 260px 260px 0 0;
+    background-color: #e9d072;
+    padding: 100px;
 }
     
 .menu{
-    position:relative;
+    position:center;
     width: 200px;
     height:200px;
     display: flex;
     justify-content: center;
     align-items: center;   
-    float: left;
+    float: center;
 }
 
 .menu li {
@@ -40,11 +49,10 @@ body{
 }
 
 .menu.active li {
-    transform: rotate(calc(360deg / 6* var(--i)));
+    transform: rotate(calc(360deg / 7* var(--i)));
 
 }
-.menu li a 
-{
+.menu li a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,15 +60,10 @@ body{
     height: 40px;
     background: #fff;
     border-radius: 50%;
-    transform: rotate(calc(360deg / -6 * var(--i)));
+    transform: rotate(calc(360deg / -7 * var(--i)));
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
     color: #111;
     transition: 0.5s;
-
-}
-
-.menu li a:hover{
-    color: #ff1252;
 }
 
 .toggle {
@@ -82,16 +85,11 @@ body{
     transform:rotate(315deg)
 }
 
-.rightcolumn{
-  margin: 20px;
-  padding:20px;
-    width: 75%;
-    float: left;
-}
 
 .container{
-  padding: 10px;
-
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
   border-style: solid;
   border-color: #fff;
 }
@@ -99,5 +97,53 @@ body{
 .container h2{
   text-align: center;
 }
+
 /* Section */
 
+/*Buttons*/
+.btn{
+    border-radius: 10%;
+    border: 1px solid #fff;
+    background: none;
+    padding: 10px 20px; 
+    font-size: 20px;
+    font-family: "";
+    cursor: pointer;
+    margin: 10px;
+    transition:0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn a{
+    text-decoration: none;
+    color:white;
+}
+
+.btn a:hover{
+    color:black;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #fff;
+    z-index:-1;
+    transition: 0.8s;
+
+}
+.btn::before{
+    top:0;
+    border-radius:0 0 50% 50%;
+}
+
+.btn:hover::before{
+    height: 180%;
+}
