@@ -41,7 +41,7 @@ body{
     position: absolute;
     left: 0;
     list-style: none;
-    transform-origin: 100px;
+    transform-origin: 175px;
     transition: 0.5s;
     transition-delay: calc(0.1s * var(--i));
     transform: rotate(0deg) translateX(80px);
@@ -56,8 +56,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 75px;
+    height: 75px;
     background: #fff;
     border-radius: 50%;
     transform: rotate(calc(360deg / -7 * var(--i)));
@@ -68,8 +68,8 @@ body{
 
 .toggle {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     background: #fff;
     display: flex;
     justify-content: center;
